@@ -11,7 +11,7 @@ from api import db
 #         sub = Subscriber(name = _name, email = _email, kindle_email = _kindle_email)
 #         db.session.add(sub)
 #         db.session.commit()
-
+ 
 
 class Subscriber():
     def print():

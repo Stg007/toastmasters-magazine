@@ -12,7 +12,7 @@ db = SQLAlchemy(app)
 
 # For the first time --- Database and models
 db.init_app(app)
-
+ 
 api.add_resource(Subscribe, '/')
 
 if __name__ == '__main__':

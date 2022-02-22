@@ -13,4 +13,4 @@ class Subscribe(Resource):
         # SubscriberModel.add_subscriber_to_database(args['name'], args['email'], args['kindle_mail'])
         # add the subscriber to the database
         Subscriber.print()
-        return {'msg': 'Welcome '+args['name']}
+        return {'msg': 'Welcome '+args['name']} 
